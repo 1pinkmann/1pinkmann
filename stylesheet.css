@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('subset-Archivo-Bold.eot');
+    src: url('subset-Archivo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-Archivo-Bold.woff2') format('woff2'),
+        url('subset-Archivo-Bold.woff') format('woff'),
+        url('subset-Archivo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('subset-ArchivoBlack-Regular.eot');
+    src: url('subset-ArchivoBlack-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-ArchivoBlack-Regular.woff2') format('woff2'),
+        url('subset-ArchivoBlack-Regular.woff') format('woff'),
+        url('subset-ArchivoBlack-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('subset-Archivo-Regular.eot');
+    src: url('subset-Archivo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-Archivo-Regular.woff2') format('woff2'),
+        url('subset-Archivo-Regular.woff') format('woff'),
+        url('subset-Archivo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

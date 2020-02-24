@@ -1,0 +1,60 @@
+.cursor{
+    z-index: 10;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #ca0b24;
+    box-shadow: 0 0 835px 275px rgba(83, 19, 57, 0.5);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+}
+
+.cursor-hover{
+    animation: hover 0.2s ease 1 normal forwards;
+    @keyframes hover {
+        from {
+            width: 11px;
+            height: 11px;
+            background-color: #ca0b24;
+            box-shadow: 0 0 835px 275px rgba(83, 19, 57, 0.5);
+        }
+
+        to {
+            width: 20px;
+            height: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 100px 255px rgba(247, 245, 246, 0.1);
+        }
+    }
+}
+
+.cursor_contact-hover, .cursor_open-hover{
+    width: 60px;
+    height: 60px;
+    background: rgb(177, 2, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transition-property: background, transform;
+    padding: 0 5px;
+}
+
+.cursor_contact-hover::after, .cursor_open-hover::after{
+    content: 'Contact';
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.cursor_open-hover::after{
+    content: 'Open';
+}
+
+@media (max-width: 767px){
+    .cursor{
+        display: none;
+    }
+}

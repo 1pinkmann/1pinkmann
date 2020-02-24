@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floaat</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page-preloader" class="preloader flex-container">
+        <div class="preloader-content flex-container column">
+            <div id="load_perc" class="preloader__percent"></div>
+            <p class="preloader__p">loading...</p>
+            <div class="preloader-content__img-container img-container__star flex-container">
+                <img src="star_big.png" alt="star" class="img-container__img">
+            </div>
+            <div class="preloader-content__img-container img-container__hdphone flex-container">
+                <img src="hdphone_big.png" alt="headphone" class="img-container__img">
+            </div>
+            <div class="preloader-content__img-container img-container__cam flex-container">
+                <img src="cam_big.png" alt="cam" class="img-container__img">
+            </div>
+        </div>
+    </div>
+    <section id="one" class="first-section parallax">
+        <div class="container">
+            <header class="header-content first-section__header-content flex-container between">
+                <a href="#" class="header-content__logo cursor-link">floaat</a>
+                <a href="#" class="header-content__contact-block flex-container">
+                    <span class="cursor-contact">contact us</span>
+                    <div class="rounds-block flex-container cursor-open">
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                    </div>
+                </a>
+            </header>
+            <div class="first-section__main">
+                <div class="main__content flex-container column">
+                    <h5 class="main__content__sze mouse-parallax">practice by SZE</h5>
+                    <h1 class="main__content__h1 mouse-parallax">creative</h1>
+                    <img src="lettering.png" alt="lettering" class="leterring__img mouse-parallax">
+                    <h5 class="main__content__reach">our content has reached</h5>
+                    <p class="main__content__num" id="Nnumber"></p> <!--Я смог передать растущее число с помощью JS, но не нашел как расставить в нем пробелы-->
+                    <p class="main__content__viewers">VIEWERS</p>
+                    <div class="main__content__img-block hdphone">
+                        <img src="headphone.png" alt="headphone" class="content__img">
+                    </div>  
+                    <div class="main__content__img-block torus">
+                        <img src="torus3.png" alt="torus" class="content__img">
+                    </div>
+                    <div class="main__content__img-block youtube">
+                        <img src="youtube.png" alt="youtube" class="content__img">
+                    </div>
+                    <div class="main__content__img-block cam">
+                        <img src="cam.png" alt="camera" class="content__img">
+                    </div>
+                    <div class="main__content__img-block note">
+                        <img src="note2.png" alt="note" class="content__img">
+                    </div>
+                    <div class="main__content__img-block heart">
+                        <img src="heart22.png" alt="heart" class="content__img">
+                    </div>
+                    <div class="main__content__img-block claqueta">
+                        <img src="claqueta.png" alt="" class="content__img">
+                    </div>
+                    <div class="main__content__img-block torus2">
+                        <img src="torus2.png" alt="" class="content__img">
+                    </div>
+                    <div class="blur main__content__blur"></div>
+                    <div class="blur blur2 main__content__blur2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="two" class="trigger-elem"></div> <!--"Костыль" для ScrollMagic-->
+    <section id="pin" class="second-section">
+        <div class="container">
+            <header class="header-content second-section__header-content flex-container between">
+                <a href="#" class="header-content__logo cursor-link">floaat</a>
+                <a href="#" class="header-content__contact-block contact-block_color-dark flex-container link">
+                    <span class="cursor-contact">contact us</span>
+                    <div class="rounds-block rounds-block_bg-white flex-container">
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                    </div>
+                </a>
+            </header>
+            <div class="flex-container between second-section__column">
+                <div class="cliens-block">
+                    <h1 class="clients-block__h">150+<br>CLIENTS</h1>
+                    <p class="clients-block__p">
+                        We work with some of the biggest gaming entertainers & world-renowned organisations.
+                    </p>
+                    <a href="#" class="more-link clients-block__more-link cursor-link">view all</a>
+                </div>
+                <div class="cards-block flex-container">
+                    <div class="cards-col">
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <img src="liam.png" alt="liam" class="cards-block__img cards-block__item">
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Liam Payne</p>
+                        </div>
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <div class="cards-block__jam cards-block__item"></div>
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Popjam</p>
+                        </div>
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <div class="cards-block__juice cards-block__item"></div>
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Liam Payne</p>
+                        </div>
+                    </div>
+                    <div class="cards-col">
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <div class="cards-block__juice cards-block__item"></div>
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Juice Burst</p>
+                        </div>
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <img src="jonas.png" alt="jonas" class="cards-block__img cards-block__item">
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Jonas Blue</p>
+                        </div>
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <img src="rita.png" alt="rita" class="cards-block__img cards-block__item">
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Juice Burst</p>
+                        </div>
+                    </div>
+                    <div class="cards-col">
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <img src="rita.png" alt="rita" class="cards-block__img cards-block__item">
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Rita Ora</p>
+                        </div>  
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <img src="logan.png" alt="logan" class="cards-block__img cards-block__item">
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Logan Paul</p>
+                        </div>                  
+                        <div class="cards-block__card cursor-link">
+                            <div class="cards-block__img-block">
+                                <img src="liam.png" alt="liam" class="cards-block__img cards-block__item">
+                                <div class="img-block_hover flex-container column">
+                                    <p class="img-block_hover__p">Channel Operation and Management</p>
+                                    <p class="img-block_hover__num">8.2M +</p>
+                                    <a href="#" class="img-block_hover__a flex-container">Video Link</a>
+                                </div>
+                            </div>
+                            <p class="card__name">Rita Ora</p>
+                        </div>
+                    </div>
+                    <img src="torus.png" alt="torus" class="icons-block__icon icon_torus">
+                    <img src="youtube2.png" alt="youtube" class="icons-block__icon icon_youtube">
+                    <img src="sphere.png" alt="sphere" class="icons-block__icon icon_sphere">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="three" class="third-section">
+        <div class="container">
+            <header class="first-section__header-content header-content flex-container between">
+                <a href="#" class="header-content__logo link">floaat</a>
+                <a href="#" class="header-content__contact-block flex-container link">
+                    <span>contact us</span>
+                    <div class="rounds-block flex-container">
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                    </div>
+                </a>
+            </header>
+            <div class="flex-container column services-main">
+                <h1 class="weDo-h">WE DO</h1>
+                <div class="services-container flex-container between">
+                    <div class="services-block flex-container">
+                        <button class="services-block__btn gear active cursor-link"></button>
+                        <button class="services-block__btn star cursor-link"></button>
+                        <button class="services-block__btn graph cursor-link"></button>
+                        <button class="services-block__btn lupa cursor-link"></button>
+                        <button class="services-block__btn hlop cursor-link"></button>
+                        <button class="services-block__btn headphone cursor-link"></button>
+                    </div>
+                    <div class="services-demo__block">
+                        <div class="services-demo services-demo_gear flex-container column appear">
+                            <p class="services-demo__p">Channel Operation and Management</p>
+                            <a href="#" class="more-link services-demo__more-link cursor-link">learn more</a>
+                        </div>
+                        <div class="services-demo services-demo_star flex-container column">
+                            <p class="services-demo__p">Creative Services for Infuencers</p>
+                            <a href="#" class="more-link services-demo__more-link cursor-link">learn more</a>
+                        </div> 
+                        <div class="services-demo services-demo_graph flex-container column">
+                            <p class="services-demo__p">Graphic Design & Photography</p>
+                            <a href="#" class="more-link services-demo__more-link cursor-link">learn more</a>
+                        </div> 
+                        <div class="services-demo services-demo_lupa flex-container column">
+                            <p class="services-demo__p">Business Development</p>
+                            <a href="#" class="more-link services-demo__more-link cursor-link">learn more</a>
+                        </div> 
+                        <div class="services-demo services-demo_hlop flex-container column">
+                            <p class="services-demo__p">Lyric Videos & Animation</p>
+                            <a href="#" class="more-link services-demo__more-link cursor-link">learn more</a>
+                        </div>      
+                        <div class="services-demo services-demo_headphone flex-container column">
+                            <p class="services-demo__p">Brand Campaigns</p>
+                            <a href="#" class="more-link services-demo__more-link cursor-link">learn more</a>
+                        </div>
+                        <div id="blur" class="blur services-container__blur"></div>
+                        <div id="blur" class="blur blur2 services-container__blur2"></div>
+                        <img id="blur" src="heart22.png" alt="heart" class="services-container__heart"> 
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section id="four" class="fourth-section">
+        <div class="container">
+            <header class="header-content second-section__header-content flex-container between">
+                <a href="#" class="header-content__logo cursor-link">floaat</a>
+                <a href="#" class="header-content__contact-block contact-block_color-dark flex-container link">
+                    <span>contact us</span>
+                    <div class="rounds-block rounds-block_bg-white flex-container">
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                        <div class="round"></div>
+                    </div>
+                </a>
+            </header>
+            <h1 class="fourth-section__h">our team</h1>
+            <div class="team-container flex-container">
+                <button class="team-container__btn prev-btn cursor-link">prev</button>
+                <div class="float-container">
+                    <div class="overflow-container">
+                        <div class="team-container__team-cards flex-container">
+                            <div class="team-card cursor-link">
+                                <img src="mate1.png" alt="mate1" class="team-card__img">
+                                <div class="team-card__hover flex-container column">
+                                    <h5 class="team-card__hover__h">thomas french</h5>
+                                    <p class="team-card__hover__p">Video Maker</p>
+                                </div>
+                            </div>
+                            <div class="team-card cursor-link">
+                                <img src="mate2.png" alt="mate2" class="team-card__img">
+                                <div class="team-card__hover flex-container column">
+                                    <h5 class="team-card__hover__h">thomas french</h5>
+                                    <p class="team-card__hover__p">Video Maker</p>
+                                </div>
+                            </div>
+                            <div class="team-card cursor-link">
+                                <img src="mate3.png" alt="mate3" class="team-card__img">
+                                <div class="team-card__hover flex-container column">
+                                    <h5 class="team-card__hover__h">thomas french</h5>
+                                    <p class="team-card__hover__p">Video Maker</p>
+                                </div>
+                            </div>
+                            <div class="team-card cursor-link">
+                                <img src="mate4.png" alt="mate4" class="team-card__img">
+                                <div class="team-card__hover flex-container column">
+                                    <h5 class="team-card__hover__h">thomas french</h5>
+                                    <p class="team-card__hover__p">Video Maker</p>
+                                </div>
+                            </div>
+                            <div class="team-card cursor-link">
+                                <img src="mate1.png" alt="mate1" class="team-card__img">
+                                <div class="team-card__hover flex-container column">
+                                    <h5 class="team-card__hover__h">thomas french</h5>
+                                    <p class="team-card__hover__p">Video Maker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-container__float float__sphere">
+                        <img src="sphere2.png" alt="sphere2" class="float__icon">
+                    </div>
+                    <div class="overflow-container__float float__note">
+                        <img src="note3.png" alt="note3" class="float__icon">
+                    </div>
+                    <div class="overflow-container__float float__torus">
+                        <img src="torus.png" alt="torus" class="float__icon">
+                    </div>
+                </div>
+                <button class="team-container__btn next-btn cursor-link">next</button>
+            </div>
+        </div>
+        <div class="contact-us cursor-link">
+            <div class="contact-us_gradient"></div>
+            <a href="#" class="contact-us__a flex-container">
+                <span>Contact us</span>
+            </a>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container flex-container between">
+            <p class="footer-section__p">Floaat © 2019</p>
+            <a href="https://nextpage.com.ua/" target="blank" class="footer-section__a cursor-link">Made by Nextpage</a>
+        </div>
+    </footer>
+    <div class="cursor"></div>
+    <!-- Скорее всего опытные JS-разработчики будут плеваться, глядя на мой код. 
+    Но, прошу учесть, что с JS я знаком весьма поверхностно и, чтобы реализовать
+    поставленные задачи, мне пришлось разбираться со всем этим на ходу и в очень 
+    сжатые сроки. И за эти выходные, пока я делал это задание, я узнал так много,
+    что могу сказать точно - со временем я очень хорошо выучу JS. -->
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="preloader.js"></script>
+    <script src="ScrollMagic.min.js"></script>
+    <script src="parallax.js"></script>
+    <script src="cursor.js"></script>
+    <script src="num.js"></script>
+    <script src="stickyIcons.js"></script>
+    <script src="animation.js"></script>
+    <!-- Я вроде бы настроил ScrollMagic, но мне кажется, что работает он не так, как должен, поэтому я его отключил, чтобы он не портил общий вид. -->
+    <!-- <script src="screen.js"></script> -->
+</body>
+</html>
