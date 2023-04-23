@@ -86,27 +86,27 @@
 <br />
 <div style="display:flex;flex-direction:column">
   <a href="https://aurora.reachire.com/">
-    <h2 style="color: #fff;text-align:center">Aurora (social network)</h2>
+    <h2 style="color: #fff;text-align:center;font-size:16px;">Aurora (social network)</h2>
     <img src="./aurora.gif" />
   </a>
   <br />
   <div>
-    <h2 style="color: #fff;text-align:center">OneSeed (web3 dApp)</h2>
+    <h2 style="color: #fff;text-align:center;font-size:16px;">OneSeed (web3 dApp)</h2>
     <img src="./staking.gif" />
   </div>
   <br />
   <a href="https://thirsty-noyce-eebf1a.netlify.app">
-    <h2 style="color: #fff;text-align:center">Cat Roulette (frontend)</h2>
+    <h2 style="color: #fff;text-align:center;font-size:16px;">Cat Roulette (frontend)</h2>
     <img src="./catroulette.gif" />
   </a>
   <br />
   <a href="https://lucid-heisenberg-50986a.netlify.app">
-    <h2 style="color: #fff;text-align:center">Sensei Shib (frontend)</h2>
+    <h2 style="color: #fff;text-align:center;font-size:16px;">Sensei Shib (frontend)</h2>
     <img src="./sensei_shib.gif" />
   </a>
   <br />
   <a href="https://upbeat-wing-9fc17f.netlify.app/">
-    <h2 style="color: #fff;text-align:center">Quokka (frontend)</h2>
+    <h2 style="color: #fff;text-align:center;font-size:16px;">Quokka (frontend)</h2>
     <img src="./quokka.gif" />
   </a>
 </div>
