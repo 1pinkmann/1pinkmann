@@ -54,7 +54,7 @@
       <img  alt="Figma" height="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/> 
   </a>
   <a href="https://soliditylang.org/" target="_blank" rel="noreferrer">
-    <img src="./solidity.svg" alt="Solidity" />
+    <img src="./solidity.svg" alt="Solidity" width="50px" height="auro" />
   </a>
   <a href="https://ethereum.org/en/" target="_blank" rel="noreferrer">
     <img  alt="Eth" width="40px" height="auto" style="padding-right:10px;" src="./Ethereum_logo_translucent.png"/> 
