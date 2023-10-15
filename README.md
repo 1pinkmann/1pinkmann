@@ -3,7 +3,7 @@
   Vladimir Korzhov
 </h1>
 
-<img src="./photo.jpg" style="width:400px;margin: 0 auto;display:block;" />
+<img src="./photo.jpg" style="width:400px; margin: 0 auto; display:block;" />
 
 <p style="font-size: 17px;" >
   I am a passionate, athletic, frontend software developer. I am open minded person, who thinks about user experience first, actively proposing options to improve it. I love to learn and I am never afraid of complex tasks and challenges. Team work is one of my best sides, as I really like to explore different opinions and come to a common agreement.
